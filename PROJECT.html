@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lucky's Projects</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; background: #f9f9f9; color: #333; }
+    header { background: #0097a7; color: white; padding: 18px 40px; display: flex; justify-content: space-between; align-items: center; }
+    nav a { margin-left: 20px; color: white; text-decoration: none; font-weight: 500; }
+    nav a:hover { color: #ffcc00; }
+    h2 { font-size: 2rem; margin-bottom: 20px; color: #0097a7; }
+    section { padding: 60px 40px; }
+    .project-category { margin-bottom: 60px; }
+    .project-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; }
+    .card { background: white; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); padding: 20px; transition: 0.3s; }
+    .card:hover { transform: translateY(-5px); }
+    .card h3 { margin-bottom: 10px; color: #333; }
+    .card p { font-size: 0.95rem; }
+    footer { background: #0d1b2a; color: #c9d6e3; text-align: center; padding: 30px 20px; margin-top: 60px; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div><strong>sample</strong></div>
+    <nav>
+      <a href="HOME.html">HOME</a>
+      <a href="ABOUT.html">ABOUT</a>
+      <a href="CONTACT.html">CONTACT</a>
+    </nav>
+  </header>
+
+  <section>
+    <div class="project-category">
+      <h2>💻 Programming Projects</h2>
+      <div class="project-grid">
+        <div class="card">
+          <h3>Exam Mark Calculator</h3>
+          <p>Made in VB.NET — inputs student marks and calculates total, average, and grade.</p>
+        </div>
+        <div class="card">
+          <h3>Networking CLI Tool</h3>
+          <p>A simple batch script that checks ping, DNS, and internet status for troubleshooting.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-category">
+      <h2>🌐 Website Projects</h2>
+      <div class="project-grid">
+        <div class="card">
+          <h3>Portfolio Website</h3>
+          <p>My personal portfolio built in HTML, CSS, and JS showcasing my skills and contact info.</p>
+        </div>
+        <div class="card">
+          <h3>Romantic Date Invite</h3>
+          <p>A playful animated webpage built for Anushka, featuring background music and fake “No” button.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-category">
+      <h2>🎧 DJ / Music Projects</h2>
+      <div class="project-grid">
+        <div class="card">
+          <h3>The Weeknd Mashup</h3>
+          <p>Custom mix using Edjing with transitions and beat drops. Designed for party vibes.</p>
+        </div>
+        <div class="card">
+          <h3>Intro Beat - FL Studio</h3>
+          <p>Self-made short intro beat created in FL Studio — perfect for YouTube intros or DJ sets.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <h3>sample</h3>
+    <p>© 2025 | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
